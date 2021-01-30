@@ -2,11 +2,11 @@ package main
 
 import (
 	"context"
-	"go-todolist/task-srv/handler"
-	pb "go-todolist/task-srv/proto/task"
-	"go-todolist/task-srv/repository"
 	"log"
 	"time"
+	"todolist/task-srv/handler"
+	pb "todolist/task-srv/proto/task"
+	"todolist/task-srv/repository"
 
 	"github.com/micro/go-micro/v2"
 	"github.com/pkg/errors"

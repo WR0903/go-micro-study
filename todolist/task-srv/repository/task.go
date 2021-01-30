@@ -2,10 +2,10 @@ package repository
 
 import (
 	"context"
-	pb "go-todolist/task-srv/proto/task"
 	"log"
 	"strings"
 	"time"
+	pb "todolist/task-srv/proto/task"
 
 	"github.com/pkg/errors"
 	"go.mongodb.org/mongo-driver/bson"
